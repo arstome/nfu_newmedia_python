@@ -1,0 +1,28 @@
+<html>
+  <head>
+    {% if title %}
+    <title>{{title}} - 喵</title>
+    {% else %}
+    <title>microblog</title>
+    {% endif %}
+    
+  </head>
+  <body>
+     <h2>{{ the_title }}</h2>
+
+     <form method='POST' action='/results'>
+     <table>
+     <p>不要问为什么要吃这些，信就可以了</p>
+    
+      选择一餐<br>
+      <select name="x">
+      <option value="bf">早餐</option>
+      <option value="lc">午餐</option>
+      <option value="dn">晚餐</option>
+      </table>
+      <p>其实你也可以晚上选早餐的：</p>
+      <p><input value='竜わが敵を喰らう！' type='SUBMIT'></p>
+      </form>
+     
+  </body>
+</html>
