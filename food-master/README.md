@@ -15,7 +15,7 @@ pick_a_color_4web
 ### 模块
 * [request]
 ### 数据
-* [简中CLDR localenames](https://github.com/unicode-cldr/cldr-localenames-modern/blob/master/main/zh-Hans/territories.json)
+
 ### API
 
 
